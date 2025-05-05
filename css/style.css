@@ -1,0 +1,76 @@
+@font-face {
+    font-family: seiko;
+    src: url(../assets/Seiko-Regular.ttf);
+}
+
+@font-face {
+    font-family: seikocurs;
+    src: url(../assets/Seikocurs-Regular.tff);
+}
+
+
+body {
+    background-color: #618353;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    height: 50%;
+}
+
+.back{
+    position: absolute;
+    left: 20%;
+}
+
+.forward{
+    position:absolute;
+    right: 20%;
+}
+
+.middle {
+    display: block;
+    margin: auto;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+    height: 90%;
+}
+
+.single{
+    position: absolute;
+    left: 46%;  
+}
+
+.thebox{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+aside {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{
+    color: white;
+    font-family: seiko;
+    font-size: 50pt;
+}
+
+h2 {
+    color: white;
+    font-family: seiko;
+    font-size: 40pt;
+}
+
+h3{
+    color: white;
+    font-family: seiko;
+    font-size: 30pt;
+    padding-top: 40%;
+}
