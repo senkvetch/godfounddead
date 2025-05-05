@@ -20,13 +20,15 @@ body {
 }
 
 .back{
-    position: absolute;
-    left: 20%;
+    position: fixed;
+    left: 10%;
+    bottom: 1%;
 }
 
 .forward{
-    position:absolute;
-    right: 20%;
+    position:fixed;
+    right: 10%;
+    bottom: 1%;
 }
 
 .middle {
@@ -41,8 +43,9 @@ canvas{
 }
 
 .single{
-    position: absolute;
+    position: fixed;
     left: 46%;  
+    bottom: 1%;
 }
 
 .thebox{

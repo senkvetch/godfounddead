@@ -9,7 +9,7 @@ function preload(){
   seiko = loadFont('Seiko-Regular.ttf')}
 
 function setup() {
-  createCanvas(700, 925);
+  createCanvas(700, 700);
 }
 
 function draw() {
@@ -27,14 +27,11 @@ function draw() {
   fill ('gold');
   textFont (seiko);
   text ("WRONG", 350, 450);
-  
-}
-
-function mousePressed() {
-    if (mouseX > 250 && mouseX < 410 && mouseY > 420 && mouseY < 470){
+  frameRate (3);
+  if (mouseX > 250 && mouseX < 410 && mouseY > 420 && mouseY < 470){
       clickCount++;
       print(clickCount);
       x.push(random(width));
       y. push(random(height));
-  }
+}
 }

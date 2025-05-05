@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup() {
-  frameRate(1);
+  frameRate(2);
   createCanvas(750, 925);
   crygif = [cry1, cry2, cry3];
 }
@@ -44,11 +44,9 @@ function draw() {
   textSize(50);
   fill(0, o);
   text("mrrow?", 550, 200);
-}
-
-function mousePressed() {
   if (mouseX > 600 && mouseY > 100 && mouseY < 500) {
     pause = true;
     o = 255;
   }
 }
+
